@@ -1,7 +1,7 @@
 
 class Calculator {
 
-    //Calculator
+
     Calculator(){
 
     }
