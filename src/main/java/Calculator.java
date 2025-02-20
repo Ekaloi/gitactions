@@ -70,7 +70,7 @@ class Calculator {
     if String n = "Jason"
     then the created ID could be = Jasonklfgn3jknnvksdfm - Because it contains the unaltered String n and is unique
 
-    if you run this function twice with the same String input, it must return 2 unique String IDs
+    of you run this function twice with the same String input, it must return 2 unique String IDs
      */
     String createUniqueID(String n){
         Random random = new Random();
