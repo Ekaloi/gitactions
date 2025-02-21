@@ -36,10 +36,11 @@ public class Main {
       }else if(command == "fib"){
         int num1 = Integer.parseInt(parts[1]);
         System.out.println(calc.fibonacciNumberFinder(num1));
-      }else{
+      }else if(command == "exit"){
+        bool = false;
+      } else{
         System.out.println("Not a valid command");
       }
-
     }
 
   }
