@@ -5,13 +5,14 @@ public class Main {
   public static void main(String[] args){
     Calculator calc = new Calculator();
     boolean bool = true;
+    Scanner scanner = new Scanner(System.in);
     while( bool == true) {
-      Scanner scanner = new Scanner(System.in);
       String input = scanner.nextLine();
       String[] parts = input.split(" ");
 
 
       String command = parts[0];
+      System.out.println(parts[0]);
 
 
       if(command == "add"){
